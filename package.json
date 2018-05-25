@@ -1,0 +1,31 @@
+{
+	"name": "mpvue-types",
+	"version": "1.0.201805251649",
+	"description": "使用 mpvue 开发微信小程序的一些辅助的类型声明",
+	"types": "./index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/banxi1988/mpvue-types.git"
+	},
+	"scripts": {
+		"test": "tsc"
+	},
+	"keywords": [
+		"mpvue",
+		"vue",
+		"微信",
+		"小程序",
+		"weixin",
+		"wechat",
+		"typescript"
+	],
+	"author": "banxi",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/banxi1988/mpvue-types/issues"
+	},
+	"homepage": "https://github.com/banxi1988/mpvue-types#readme",
+	"devDependencies": {
+		"typescript": "next"
+	}
+}
