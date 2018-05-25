@@ -22,5 +22,8 @@ npm i mpvue-types --save-dev
 ```
 
 ## add implements to your mpvue page component 
+then you can get doc tip and autocomplete tip
 
-then you can get doc tip and autocomplete
+![vue-mounted](https://raw.githubusercontent.com/banxi1988/mpvue-types/master/Screenshots/vue-mounted.png)
+
+![mp-onload](https://raw.githubusercontent.com/banxi1988/mpvue-types/master/Screenshots/mp-onload.png)
