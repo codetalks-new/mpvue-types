@@ -1,6 +1,6 @@
 {
 	"name": "mpvue-types",
-	"version": "1.1.201805251749",
+	"version": "1.1.201805251800",
 	"description": "使用 mpvue 开发微信小程序的一些辅助的类型声明",
 	"types": "./index.d.ts",
 	"repository": {
