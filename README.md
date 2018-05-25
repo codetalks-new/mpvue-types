@@ -20,3 +20,7 @@ npm i mpvue-types --save-dev
 	}
 }
 ```
+
+## add implements to your mpvue page component 
+
+then you can get doc tip and autocomplete

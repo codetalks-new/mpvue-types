@@ -1,9 +1,10 @@
-/**
- * 添加 Vue 生命周期函数声明，方便以类风格编写 Component 添加 life cycle 函数.
- * 但是不能使用 module augmentation 的方式来增加,
- * 因为这会跟 VueCombinedInstance 声明的即 Component 声明的方法冲突。
- */
-export interface VueLifecycle {
+declare namespace mp {
+  /**
+   * 添加 Vue 生命周期函数声明，方便以类风格编写 Component 添加 life cycle 函数.
+   * 但是不能使用 module augmentation 的方式来增加,
+   * 因为这会跟 VueCombinedInstance 声明的即 Component 声明的方法冲突。
+   */
+  interface VueLifecycle {
     /**
      * Called synchronously immediately after the instance has been initialized,
      * before data observation and event/watcher setup.
@@ -115,4 +116,5 @@ export interface VueLifecycle {
      * This hook is not called during server-side rendering.
      */
     destroyed?(): void;
+  }
 }

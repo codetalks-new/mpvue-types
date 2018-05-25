@@ -1,2 +1,2 @@
-export * from "./types/vue";
+import "./types/vue";
 import "./types/mp"
